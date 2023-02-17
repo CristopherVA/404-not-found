@@ -23,7 +23,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="footer">created by username - devChallenges.io</div>
+      <div className="footer">
+        created by{" "}
+        <a
+          className="font-bold"
+          href="https://devchallenges.io/portfolio/CristopherVA"
+        >
+          CristopherVA
+        </a>{" "}
+        - devChallenges.io
+      </div>
     </div>
   );
 }
